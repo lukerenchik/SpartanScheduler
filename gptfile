@@ -1,0 +1,26 @@
+import requests
+import json
+
+#lukeopenaikey - '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'
+def chat_with_openai(prompt, api_key):
+    url = "https://api.openai.com/v1/chat/completions"
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json"
+    }
+    data = {
+        "model": "gpt-3.5-turbo",  # or another model you prefer
+        "messages": [{"role": "system", "content": "You are a helpful assistant."},
+                     {"role": "user", "content": prompt}]
+    }
+
+    response = requests.post(url, headers=headers, json=data)
+    return response.json()
+
+# Replace 'your_api_key_here' with your actual OpenAI API key
+API_KEY = "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"
+
+# Example usage
+user_prompt = "Translate 'Hello, world!' into French."
+response = chat_with_openai(user_prompt, API_KEY)
+print(response)

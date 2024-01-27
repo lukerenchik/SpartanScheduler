@@ -1,0 +1,827 @@
+{
+    "CSE 102  Algorithmic Thinking and Programming": {
+        "description": {
+            "Semester": "Fall of every year, Spring of every year, Summer of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 2   Lab Hours: 2",
+            "Prerequisite": "(MTH 103 or MTH 103B or MTH 116 or MTH 124 or MTH 132 or MTH 152H or LB 118 or LB 117) or designated score on Mathematics Placement test",
+            "Not open to students with credit in": "CSE 231",
+            "Description": "Fundamentals of computing, algorithms and programming, using a high-level language such as Python.",
+            "Effective Dates": "FS23 - Open",
+            "View all versions of CSE 102.": ""
+        }
+    },
+    "CSE 220  Programming in C": {
+        "description": {
+            "Semester": "Fall of every year, Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 2   Lab Hours: 2",
+            "Prerequisite": "(EGR 100 or ECE 101) and ((MTH 132 or concurrently) or (MTH 152H or concurrently) or (LB 118 or concurrently))",
+            "Restrictions": "Open to undergraduate students.",
+            "Not open to students with credit in": "CSE 251",
+            "Description": "Basics of programming in C. Data types, operators, control, functions, arrays, pointers, file processing, testing and debugging.",
+            "Effective Dates": "SS14 - Open"
+        }
+    },
+    "CSE 231  Introduction to Programming I": {
+        "description": {
+            "View all versions of CSE 220.": "",
+            "Semester": "Fall of every year, Spring of every year, Summer of every year",
+            "Credits": "Total Credits: 4   Lecture/Recitation/Discussion Hours: 3   Lab Hours: 2",
+            "Prerequisite": "(LB 118 or concurrently) or (MTH 124 or concurrently) or (MTH 132 or concurrently) or (MTH 152H or concurrently)",
+            "Description": "Introduction to programming using Python. Design, implementation and testing of programs to solve problems such as those in engineering, mathematics and science. Programming fundamentals, functions, objects, and use of libraries of functions.",
+            "Semester Alias": "CSE 230",
+            "Effective Dates": "SS14 - Open"
+        }
+    },
+    "CSE 232  Introduction to Programming II": {
+        "description": {
+            "View all versions of CSE 231.": "",
+            "Semester": "Fall of every year, Spring of every year, Summer of every year",
+            "Credits": "Total Credits: 4   Lecture/Recitation/Discussion Hours: 3   Lab Hours: 2",
+            "Prerequisite": "(CSE 231 or CMSE 202) and (LB 118 or MTH 124 or MTH 132 or MTH 152H)",
+            "Description": "Continuation of object-centered design and implementation in C++. Building programs from modules. Data abstraction and classes to implement abstract data types. Static and dynamic memory allocation. Data structure implementation and algorithm efficiency. Lists, tables, stacks, and queues. Templates and generic programming.",
+            "Semester Alias": "CSE 330",
+            "Effective Dates": "FS22 - Open"
+        }
+    },
+    "CSE 260  Discrete Structures in Computer Science": {
+        "description": {
+            "View all versions of CSE 232.": "",
+            "Semester": "Fall of every year, Spring of every year, Summer of every year",
+            "Credits": "Total Credits: 4   Lecture/Recitation/Discussion Hours: 5",
+            "Prerequisite": "MTH 133 or MTH 126 or MTH 153H or LB 119",
+            "Description": "Propositional and first order logic. Equivalence and methods of proof. Basics of counting. Set operations, relations, functions. Grammars and finite state automata. Discrete probability. Applications to computer science and engineering.",
+            "Semester Alias": "CPS 260",
+            "Effective Dates": "FS22 - Open"
+        }
+    },
+    "CSE 290  Independent Study in Computer Science": {
+        "description": {
+            "View all versions of CSE 260.": "",
+            "Semester": "Fall of every year, Spring of every year, Summer of every year",
+            "Credits": "Total Credits: 1",
+            "Reenrollment Information": "A student may earn a maximum of 3 credits in all enrollments for this course.",
+            "Restrictions": "Approval of department; application required.",
+            "Description": "Supervised individual study in an area of computer science.",
+            "Semester Alias": "CPS 290"
+        }
+    },
+    "CSE 291  Selected Topics in Computer Science": {
+        "description": {
+            "Effective Dates": "FS22 - Open",
+            "View all versions of CSE 290.": "",
+            "Semester": "Fall of every year, Spring of every year",
+            "Credits": "Variable from 1 to 4",
+            "Reenrollment Information": "A student may earn a maximum of 8 credits in all enrollments for this course.",
+            "Restrictions": "Approval of department.",
+            "Description": "Topics selected to supplement and enrich existing courses and lead to the development of new courses."
+        }
+    },
+    "CSE 300  Social, Ethical, and Professional Issues in Computing": {
+        "description": {
+            "Semester Alias": "CPS 291",
+            "Effective Dates": "SS14 - Open",
+            "View all versions of CSE 291.": "",
+            "Semester": "Fall of every year, Spring of every year",
+            "Credits": "Total Credits: 1   Lecture/Recitation/Discussion Hours: 1",
+            "Prerequisite": "CSE 232",
+            "Restrictions": "Open to undergraduate students in the College of Engineering."
+        }
+    },
+    "CSE 320  Computer Organization and Architecture": {
+        "description": {
+            "Description": "Professional responsibilities and informed judgments in computing practice based on legal and ethical principles. Local and global impacts of computing solutions on individuals, organizations, and society.",
+            "Effective Dates": "SS24 - Open",
+            "View all versions of CSE 300.": "",
+            "Semester": "Fall of every year, Spring of every year, Summer of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "CSE 232 and CSE 260",
+            "Restrictions": "Open to students in the Department of Computer Science and Engineering or in the Computer Engineering Major or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major or in the Computer Science Disciplinary Teaching Minor."
+        }
+    },
+    "CSE 325  Computer Systems": {
+        "description": {
+            "Not open to students with credit in": "ECE 331",
+            "Description": "Boolean algebra and digital logic. Combinational and sequential circuits. Representations of data and instructions. Architecture and major components of computer systems. Assembly language programming and interfacing to high level languages. Assembler and linker processing.",
+            "Semester Alias": "CPS 320",
+            "Effective Dates": "FS22 - Open",
+            "View all versions of CSE 320.": "",
+            "Semester": "Fall of every year, Spring of every year, Summer of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3"
+        }
+    },
+    "CSE 331  Algorithms and Data Structures": {
+        "description": {
+            "Prerequisite": "(CSE 232) and (CSE 260 or CMSE 202)",
+            "Restrictions": "Open to students in the College of Engineering or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major.",
+            "Description": "Process and processor management. Concurrent processes and threads. Memory management and the memory hierarchy. Networking and network protocols. Secure programming and communication methods.",
+            "Effective Dates": "FS19 - Open",
+            "Semester": "Fall of every year, Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3"
+        }
+    },
+    "CSE 335  Object-oriented Software Design": {
+        "description": {
+            "Restrictions": "Open to students in the Department of Computer Science and Engineering or in the Computer Engineering Major or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major or in the Data Science Major and open to juniors or seniors in the College of Engineering.",
+            "Description": "Design, analysis, and application of fundamental algorithms and data structures in computer science.",
+            "Effective Dates": "FS20 - Open",
+            "View all versions of CSE 331.": "",
+            "Semester": "Fall of every year, Spring of every year",
+            "Credits": "Total Credits: 4   Lecture/Recitation/Discussion Hours: 4",
+            "Prerequisite": "CSE 232 and CSE 260"
+        }
+    },
+    "CSE 402  Biometrics and Pattern Recognition": {
+        "description": {
+            "Restrictions": "Open to students in the Department of Computer Science and Engineering or in the Computer Engineering Major or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major or in the Computer Science Disciplinary Teaching Minor.",
+            "Description": "Development of large software products, libraries, and product families. Object-oriented programming using inheritance and polymorphism. Design methods. Specification and the use of contracts to design reliable software. Configuration management and life-cycle issues.",
+            "Semester Alias": "CSE 370",
+            "Effective Dates": "FS14 - Open",
+            "View all versions of CSE 335.": "",
+            "Semester": "Fall of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3"
+        }
+    },
+    "CSE 404  Introduction to Machine Learning": {
+        "description": {
+            "Prerequisite": "(CSE 331) and (STT 351 or STT 380 or STT 430 or STT 441) and MTH 314 and (MTH 234 or MTH 254H or LB 220)",
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Computer Science Minor or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major or in the Data Science Major.",
+            "Description": "Automated techniques used for feature extraction and pattern matching focusing on face, fingerprint and iris recognition.",
+            "Effective Dates": "FS21 - Open",
+            "View all versions of CSE 402.": "",
+            "Semester": "Fall of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3"
+        }
+    },
+    "CSE 410  Operating Systems": {
+        "description": {
+            "Prerequisite": "(CSE 331) and (STT 351 or STT 380 or STT 430 or STT 441) and MTH 314",
+            "Recommended Background": "Basic linear algebra",
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Computer Science Minor or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major or in the Data Science Major.",
+            "Description": "Core principles and techniques for machine learning including algorithms, model design, and programming.",
+            "Interdepartmental With": "Statistics and Probability, Computational Mathematics, Science, & Engineering",
+            "Administered By": "Computer Science and Engineering",
+            "Effective Dates": "FS21 - Open"
+        }
+    },
+    "CSE 415  Introduction to Parallel Computing": {
+        "description": {
+            "View all versions of CSE 404.": "",
+            "Semester": "Fall of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "(CSE 232 and CSE 260) and CSE 325",
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major.",
+            "Description": "Theory and application of modern computer operating systems.",
+            "Semester Alias": "CPS 410"
+        }
+    },
+    "CSE 420  Computer Architecture": {
+        "description": {
+            "Effective Dates": "FS20 - Open",
+            "View all versions of CSE 410.": "",
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "(CSE 320 or ECE 331) and (MTH 314 or ECE 280) and CSE 331",
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major or in the Data Science Major.",
+            "Not open to students with credit in": "CMSE 401"
+        }
+    },
+    "CSE 422  Computer Networks": {
+        "description": {
+            "Description": "Principles and techniques of parallel computing including architectures, programming models, and algorithm design.",
+            "Effective Dates": "FS21 - Open",
+            "View all versions of CSE 415.": "",
+            "Semester": "Spring of odd years",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "(CSE 232 and CSE 260) and CSE 325",
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Computer Science Minor or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major or in the Computer Science Disciplinary Teaching Minor."
+        }
+    },
+    "CSE 425  Introduction to Computer Security": {
+        "description": {
+            "Description": "Fundamental organization and architecture of computer systems.",
+            "Semester Alias": "CPS 420",
+            "Effective Dates": "FS20 - Open",
+            "View all versions of CSE 420.": "",
+            "Semester": "Fall of every year, Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "(STT 351 or ECE 280 or STT 430 or STT 441) and CSE 325"
+        }
+    },
+    "CSE 429  Interdisciplinary Topics in CyberSecurity": {
+        "description": {
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major.",
+            "Description": "Computer network architectures and protocols.",
+            "Semester Alias": "CPS 422",
+            "Effective Dates": "FS20 - Open",
+            "View all versions of CSE 422.": "",
+            "Semester": "Fall of every year, Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3"
+        }
+    },
+    "CSE 431  Algorithm Engineering": {
+        "description": {
+            "Prerequisite": "CSE 325",
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major.",
+            "Description": "Theory and practice of computer security engineering.",
+            "Effective Dates": "FS23 - Open",
+            "View all versions of CSE 425.": "",
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3"
+        }
+    },
+    "CSE 434  Autonomous Vehicles": {
+        "description": {
+            "Prerequisite": "CSE 102 or CSE 231",
+            "Restrictions": "Open to juniors or seniors or graduate students.",
+            "Description": "Technical, legal, criminal, medical business, and communication aspects of CyberSecurity.",
+            "Interdepartmental With": "Criminal Justice",
+            "Administered By": "Computer Science and Engineering",
+            "Effective Dates": "FS20 - Open",
+            "View all versions of CSE 429.": ""
+        }
+    },
+    "CSE 435  Software Engineering": {
+        "description": {
+            "Semester": "Fall of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "CSE 331",
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Computer Science Minor or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major.",
+            "Description": "Algorithm analysis, design, implementation, and optimization for a broad range of problem categories including techniques to recognize and cope with intractable problems.",
+            "Effective Dates": "FS17 - Open"
+        }
+    },
+    "CSE 440  Introduction to Artificial Intelligence": {
+        "description": {
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 2   Lab Hours: 2",
+            "Prerequisite": "ECE 331 or CSE 331",
+            "Recommended Background": "Proficiency in Python programming strongly recommended, equivalent to a one-semester Python class.",
+            "Restrictions": "Open to juniors or seniors in the College of Engineering.",
+            "Description": "Overview of technologies vehicles including sensors, sensing algorithms, machine learning, localization, mapping, object detection, tracking, communication and security. Hands-on implementation of robotic sensing and navigation algorithms on both simulated and physical mobile platforms.",
+            "Interdepartmental With": "Electrical and Computer Engineering",
+            "Administered By": "Electrical and Computer Engineering"
+        }
+    },
+    "CSE 444  Information Technology Project Management": {
+        "description": {
+            "Effective Dates": "FS20 - Open",
+            "Semester": "Fall of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "(CSE 331 and CSE 335) and completion of Tier I writing requirement",
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major.",
+            "Description": "Software engineering methods for reliable, reusable, and dependable software."
+        }
+    },
+    "CSE 450  Translation of Programming Languages": {
+        "description": {
+            "View all versions of CSE 435.": "",
+            "Semester": "Fall of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "(CSE 331) and (MTH 314 or ECE 280)",
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Computer Science Major or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major or in the Data Science Major.",
+            "Description": "Fundamental algorithms and methods in intelligent systems and artificial intelligence.",
+            "Semester Alias": "CPS 440"
+        }
+    },
+    "CSE 460  Computability and Formal Language Theory": {
+        "description": {
+            "Effective Dates": "FS21 - Open",
+            "View all versions of CSE 440.": "",
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "ITM 311",
+            "Restrictions": "Open to students in the Information Technology Minor.",
+            "Description": "Practical training and experiences in design, testing, and launch of new information technologies and systems."
+        }
+    },
+    "CSE 471  Media Processing and Multimedia Computing": {
+        "description": {
+            "Interdepartmental With": "Information Technology Management, Media and Information",
+            "Administered By": "Information Technology Management",
+            "Effective Dates": "FS16 - Open",
+            "View all versions of CSE 444.": "",
+            "Semester": "Fall of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "CSE 331 and (CSE 320 or ECE 331)"
+        }
+    },
+    "CSE 472  Computer Graphics": {
+        "description": {
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major.",
+            "Description": "Theory and practice of programming language translation from languages and grammars to optimization and generation.",
+            "Semester Alias": "CPS 450",
+            "Effective Dates": "FS20 - Open",
+            "View all versions of CSE 450.": "",
+            "Semester": "Fall of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3"
+        }
+    },
+    "CSE 476  Mobile Application Development": {
+        "description": {
+            "Prerequisite": "CSE 331",
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Computer Science Minor or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major or in the Computer Science Disciplinary Teaching Minor.",
+            "Description": "Formal models of computation such as finite state automata, pushdown automata and Turing machines. Formal definitions of languages, problems, and language classes including recursive, recursively enumerable, regular, and context free languages. The relationships among various models of computation, language classes, and problems. Church's thesis and the limits of computability. Proofs of program properties including correctness.",
+            "Semester Alias": "CSE 360",
+            "Effective Dates": "FS17 - Open",
+            "View all versions of CSE 460.": "",
+            "Semester": "Spring of every year"
+        }
+    },
+    "CSE 477  Web Application Architecture and Development": {
+        "description": {
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "(CSE 320 or CSE 331 or CSE 335) and (MTH 314 or ECE 280)",
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Computer Science Minor or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major.",
+            "Description": "Theory and practice for manipulation of digital images, video, and audio in computer applications.",
+            "Effective Dates": "FS21 - Open",
+            "View all versions of CSE 471.": "",
+            "Semester": "Spring of every year"
+        }
+    },
+    "CSE 480  Database Systems": {
+        "description": {
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "(CSE 331 or CSE 335) and (MTH 314 or ECE 280)",
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Computer Science Minor or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major.",
+            "Description": "Theory and practice for the generation of two- and three-dimensional imagery.",
+            "Semester Alias": "CPS 472",
+            "Effective Dates": "FS21 - Open",
+            "View all versions of CSE 472.": ""
+        }
+    },
+    "CSE 482  Big Data Analysis": {
+        "description": {
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "CSE 320 or CSE 331 or CSE 335",
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Computer Science Minor or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major.",
+            "Description": "Software development techniques for mobile devices such as smart phones and tablet computers.",
+            "Effective Dates": "FS17 - Open",
+            "View all versions of CSE 476.": ""
+        }
+    },
+    "CSE 490  Independent Study in Computer Science": {
+        "description": {
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "CSE 320 or CSE 331 or CSE 335",
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Computer Science Minor or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major.",
+            "Description": "Fundamentals of World Wide Web (WWW) programming, including protocols, client-server interaction, markup languages, client- and server-side programming, databases, and remote procedure calls. Development of a WWW server and WWW sites with browser-based interfaces to remote databases. Students will incorporate scaling, throughput, and latency considerations in the development of widely-distributed systems.",
+            "Effective Dates": "FS17 - Open",
+            "View all versions of CSE 477.": ""
+        }
+    },
+    "CSE 491  Selected Topics in Computer Science": {
+        "description": {
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "CSE 331 or CSE 335",
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Computer Science Minor or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major or in the Data Science Major.",
+            "Description": "Principles and technologies for database systems, algorithms, languages, and applications.",
+            "Semester Alias": "CPS 480",
+            "Effective Dates": "FS20 - Open"
+        }
+    },
+    "CSE 492  Selected Topics in Data Science": {
+        "description": {
+            "View all versions of CSE 480.": "",
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "(CSE 331) and (STT 351 or STT 380 or STT 430 or STT 441) and MTH 314 and (MTH 234 or MTH 254H or LB 220)",
+            "Restrictions": "Open to juniors or seniors in the College of Engineering or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major or in the Data Science Major.",
+            "Description": "Principles and techniques for large-scale data analysis and applications.",
+            "Effective Dates": "FS21 - Open"
+        }
+    },
+    "CSE 495  Experiential Learning in Data Science (W)": {
+        "description": {
+            "View all versions of CSE 482.": "",
+            "Semester": "Fall of every year, Spring of every year, Summer of every year",
+            "Credits": "Variable from 1 to 3",
+            "Reenrollment Information": "A student may earn a maximum of 3 credits in all enrollments for this course.",
+            "Restrictions": "Open to students in the Computer Engineering Major or in the Computer Science Major. Approval of department; application required.",
+            "Description": "Supervised individual study in an area of computer science.",
+            "Semester Alias": "CPS 490"
+        }
+    },
+    "CSE 498  Collaborative Design (W)": {
+        "description": {
+            "Effective Dates": "FS22 - Open",
+            "View all versions of CSE 490.": "",
+            "Semester": "Fall of every year, Spring of every year",
+            "Credits": "Variable from 1 to 4",
+            "Reenrollment Information": "A student may earn a maximum of 9 credits in all enrollments for this course.",
+            "Restrictions": "Open to students in the Computer Engineering Major or in the Computer Science Major or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major or in the Computer Science Disciplinary Teaching Minor. Approval of department.",
+            "Description": "Topics selected to supplement and enrich existing courses and lead to the development of new courses."
+        }
+    },
+    "CSE 499  Undergraduate Research": {
+        "description": {
+            "Semester Alias": "CPS 491",
+            "Effective Dates": "FS15 - Open",
+            "View all versions of CSE 491.": "",
+            "Semester": "Fall of every year, Spring of every year",
+            "Credits": "Variable from 1 to 4",
+            "Reenrollment Information": "A student may earn a maximum of 12 credits in all enrollments for this course.",
+            "Restrictions": "Approval of department."
+        }
+    },
+    "CSE 801A  Introduction to Big Data Analysis": {
+        "description": {
+            "Description": "Topics selected to supplement and enrich existing courses in Data Science.",
+            "Interdepartmental With": "Computational Mathematics, Science, & Engineering, Statistics and Probability",
+            "Administered By": "Computational Mathematics, Science, & Engineering",
+            "Effective Dates": "FS19 - Open",
+            "Semester": "Fall of every year, Spring of every year",
+            "Credits": "Total Credits: 4   Lecture/Recitation/Discussion Hours: 2   Lab Hours: 4",
+            "Prerequisite": "(CSE 232 and CMSE 382) and completion of Tier I writing requirement"
+        }
+    },
+    "CSE 801B  Introduction to Data Mining": {
+        "description": {
+            "Restrictions": "Open to seniors.",
+            "Description": "Team-based data science projects working with real-world data in collaboration with client/company sponsors. Practice in software development, data collection, curation, modeling, scientific visualization and presentation of results. Students may be required to sign a non-disclosure agreement (\u201cNDA\u201d) or an assignment of intellectual property rights (\u201cIP Assignment\u201d) to work with some project sponsors.",
+            "Interdepartmental With": "Computational Mathematics, Science, & Engineering, Statistics and Probability",
+            "Administered By": "Computational Mathematics, Science, & Engineering",
+            "Effective Dates": "SS23 - Open",
+            "View all versions of CSE 495.": "",
+            "Semester": "Fall of every year, Spring of every year"
+        }
+    },
+    "CSE 802  Pattern Recognition and Analysis": {
+        "description": {
+            "Credits": "Total Credits: 4   Lecture/Recitation/Discussion Hours: 2   Lab Hours: 4",
+            "Prerequisite": "(CSE 402 or CSE 415 or CSE 422 or CSE 431 or CSE 440 or CSE 450 or CSE 471 or CSE 476 or CSE 477 or CSE 482) and (CSE 402 or CSE 420 or CSE 425 or CSE 435 or CSE 440 or CSE 460 or CSE 472 or CSE 477 or CSE 480 or CSE 482) and ((CSE 300 and CSE 325 and CSE 335) and completion of Tier I writing requirement)",
+            "Restrictions": "Open to students in the Computer Science Major or in the Lyman Briggs Computer Science Coordinate Major.",
+            "Description": "Development of a comprehensive software and/or hardware solution to a problem in a team setting with emphasis on working with a client. Participation in a design cycle including specification, design, implementation, testing, maintenance, and documentation. Issues of professionalism, ethics, and communication. Students may be asked to sign a non-disclosure agreement (\u201cNDA\u201d) or an assignment of intellectual property rights (\u201cIP Assignment\u201d) to work with some project sponsors.",
+            "Semester Alias": "CSE 449, CSE 478, CSE 479",
+            "Effective Dates": "FS22 - Open",
+            "View all versions of CSE 498.": ""
+        }
+    },
+    "CSE 803  Computer Vision": {
+        "description": {
+            "Semester": "Spring of every year",
+            "Credits": "Variable from 1 to 3",
+            "Reenrollment Information": "A student may earn a maximum of 3 credits in all enrollments for this course.",
+            "Restrictions": "Open to students in the Department of Computer Science and Engineering or in the Computer Engineering Major or in the Lyman Briggs Computer Science Coordinate Major or in the Lyman Briggs Computer Science Major. Approval of department.",
+            "Description": "Independent undergraduate research in contemporary areas of computer science.",
+            "Effective Dates": "FS20 - Open"
+        }
+    },
+    "CSE 812  Distributed Systems": {
+        "description": {
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Recommended Background": "Probability, some linear algebra, and some geometry. Some programming background such as familiarity with python and scripting/command line usage in various operating systems.",
+            "Restrictions": "Open to graduate students in the Business Analytics Major.",
+            "Description": "Introduction to data retrieval, processing, analysis, and visualization.",
+            "Effective Dates": "SS20 - Open",
+            "Semester": "Fall of every year"
+        }
+    },
+    "CSE 813  Advanced VLSI Design": {
+        "description": {
+            "Prerequisite": "CSE 840",
+            "Restrictions": "Open to graduate students in the Business Analytics Major.",
+            "Description": "Basic techniques and algorithms for knowledge discovery in databases.",
+            "Effective Dates": "SS20 - Open",
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3"
+        }
+    },
+    "CSE 814  Computer Aided Verification": {
+        "description": {
+            "Recommended Background": "(CSE 331 and MTH 314 and STT 441) or CSE 331 and MTH 314 and STT 441",
+            "Restrictions": "Open to graduate students in the Department of Computer Science and Engineering or approval of department.",
+            "Description": "Introduction to salient topics in statistical pattern recognition. These include concepts in Bayesian decision theory, parametric and non-parametric density estimation schemes, linear discriminant functions, perceptrons and unsupervised clustering. The project component of this course will test the student's ability to design and evaluate classifiers on datasets.",
+            "Effective Dates": "FS23 - Open",
+            "View all versions of CSE 802.": "",
+            "Semester": "Fall of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3"
+        }
+    },
+    "CSE 820  Advanced Computer Architecture": {
+        "description": {
+            "Prerequisite": "CSE 840",
+            "Recommended Background": "CSE 331 and MTH 314 and STT 351",
+            "Restrictions": "Open to graduate students in the Department of Computer Science and Engineering or approval of department.",
+            "Description": "Visual information processing problems. Human and machine vision systems. Image formation and transforms. Encoding, enhancement, edge detection, segmentation. 2D and 3D object description and recognition. Scene analysis. Applications.",
+            "Semester Alias": "CPS 803",
+            "Effective Dates": "FS23 - Open",
+            "View all versions of CSE 803.": ""
+        }
+    },
+    "CSE 822  Parallel Computing": {
+        "description": {
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Recommended Background": "CSE 410",
+            "Restrictions": "Open to students in the Electrical Engineering Major or in the Computer Science Major.",
+            "Description": "Principles, paradigms, techniques used in distributed systems. Assurance techniques for distributed systems. Fault-tolerance and security issues in distributed systems. Research issues in the design and implementation of distributed systems.",
+            "Semester Alias": "CPS 812",
+            "Effective Dates": "US15 - Open"
+        }
+    },
+    "CSE 824  Advanced Computer Networks and Communications": {
+        "description": {
+            "View all versions of CSE 812.": "",
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "ECE 410",
+            "Description": "Advanced topics in digital integrated circuit design. Design specifications: functionality, performance, reliability, manufacturability, testability, cost. Standard cells. Design-rule checking. Circuit extraction, simulation, verification. Team-based design.",
+            "Semester Alias": "EE 813",
+            "Interdepartmental With": "Electrical and Computer Engineering"
+        }
+    },
+    "CSE 825  Computer and Network Security": {
+        "description": {
+            "Administered By": "Electrical and Computer Engineering",
+            "Effective Dates": "US02 - Open",
+            "View all versions of CSE 813.": "",
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Recommended Background": "CSE 260",
+            "Restrictions": "Open to graduate students in the Department of Computer Science and Engineering or approval of department."
+        }
+    },
+    "CSE 830  Design and Theory of Algorithms": {
+        "description": {
+            "Description": "Formal specification languages, integrating verification with development. Design and the implementation of term project.",
+            "Semester Alias": "CPS 814",
+            "Effective Dates": "SS23 - Open",
+            "View all versions of CSE 814.": "",
+            "Semester": "Fall of even years",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Recommended Background": "CSE 325 and CSE 420"
+        }
+    },
+    "CSE 835  Algorithmic Graph Theory": {
+        "description": {
+            "Restrictions": "Open to graduate students in the Department of Computer Science and Engineering or in the Department of Electrical and Computer Engineering.",
+            "Description": "Advanced concepts in the organization and architecture of modern computer systems.",
+            "Semester Alias": "CPS 820",
+            "Interdepartmental With": "Electrical and Computer Engineering",
+            "Administered By": "Computer Science and Engineering",
+            "Effective Dates": "SS20 - Open",
+            "View all versions of CSE 820.": ""
+        }
+    },
+    "CSE 840  Computational Foundations in Artificial Intelligence": {
+        "description": {
+            "Semester": "Fall of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Recommended Background": "Calculus at the level of MTH 133. Ability to program proficiently in C/C++, basic understanding of data structures and algorithms (both at the level of CSE 232). Basic linear algebra and differential equations.",
+            "Description": "Core principles, techniques, and use of parallel computation using modern supercomputers. Parallel architectures. Parallel programming models. Principles of parallel algorithm design. Performance analysis and optimization.",
+            "Interdepartmental With": "Computational Mathematics, Science, & Engineering",
+            "Administered By": "Computational Mathematics, Science, & Engineering",
+            "Effective Dates": "US17 - Open"
+        }
+    },
+    "CSE 841  Artificial Intelligence": {
+        "description": {
+            "View all versions of CSE 822.": "",
+            "Semester": "Fall of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Recommended Background": "CSE 422",
+            "Restrictions": "Open only to graduate students in the Department of Computer Science and Engineering.",
+            "Description": "Advanced topics in emerging computer networking technologies, including high-speed wide area networks and local area networks, wireless and mobile computing networks, optical networks, and multimedia networking.",
+            "Semester Alias": "CPS 824"
+        }
+    },
+    "CSE 842  Natural Language Processing": {
+        "description": {
+            "Effective Dates": "SS05 - Open",
+            "View all versions of CSE 824.": "",
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Recommended Background": "CSE 410 and CSE 422",
+            "Description": "Threat assessments, secure software, intrusions and intrusion detection."
+        }
+    },
+    "CSE 845  Multi-disciplinary Research Methods for the Study of Evolution": {
+        "description": {
+            "Semester": "Fall of every year, Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Recommended Background": "CSE 232 and CSE 460",
+            "Restrictions": "Open only to majors in the Department of Computer Science and Engineering or approval of department.",
+            "Description": "Analysis of algorithms. Algorithm design techniques. Efficient algorithms for classical problems. Intractable problems and techniques to handle them.",
+            "Semester Alias": "CPS 830",
+            "Effective Dates": "FS01 - Open"
+        }
+    },
+    "CSE 847  Machine Learning": {
+        "description": {
+            "View all versions of CSE 830.": "",
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Recommended Background": "(CSE 232 and CSE 460) and (MTH 309 or MTH 314)",
+            "Restrictions": "Open to students in the Department of Computer Science and Engineering or approval of department.",
+            "Description": "Classical concepts in Graph Theory. Algorithmic aspects of graphs such as finding paths, network flow, spanning trees and matching.",
+            "Semester Alias": "CPS 835"
+        }
+    },
+    "CSE 848  Evolutionary Computation": {
+        "description": {
+            "Effective Dates": "FS09 - Open",
+            "View all versions of CSE 835.": "",
+            "Semester": "Fall of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Recommended Background": "MTH 314 and STT 441 or equivalent",
+            "Restrictions": "Open to graduate students in the Department of Computer Science and Engineering or approval of department.",
+            "Description": "Conduct research in machine learning, artificial intelligence, deep learning, data mining, and other related fields."
+        }
+    },
+    "CSE 849  Deep Learning": {
+        "description": {
+            "Effective Dates": "FS22 - Open",
+            "Semester": "Fall of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "CSE 840",
+            "Recommended Background": "CSE 440",
+            "Restrictions": "Open to graduate students in the Department of Computer Science and Engineering.",
+            "Description": "Types of intelligence, knowledge representation, cognitive models. Goal-based systems, heuristic search and games, expert systems. Language understanding, robotics and computer vision, theorem proving and deductive systems, and learning."
+        }
+    },
+    "CSE 860  Foundations of Computing": {
+        "description": {
+            "Semester Alias": "CPS 841",
+            "Effective Dates": "FS23 - Open",
+            "View all versions of CSE 841.": "",
+            "Semester": "Fall of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "CSE 840",
+            "Recommended Background": "Programming skills, basic probability and statistics knowledge."
+        }
+    },
+    "CSE 867  Nature and Practice of Cognitive Science": {
+        "description": {
+            "Restrictions": "Open to graduate students in the Department of Computer Science and Engineering or approval of department.",
+            "Description": "Techniques for engaging in multi-disciplinary research collaborations, including biology, computer science, and engineering. Students engage in group projects to answer fundamental questions about the dynamics of actively evolving systems including both natural and computational. Multi-disciplinary teams will learn to overcome discipline-specific language and conceptual issues. Experimental design, statistical analysis, data visualization, and paper and grant writing for multi-disciplinary audiences.",
+            "Effective Dates": "FS23 - Open",
+            "View all versions of CSE 842.": "",
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3"
+        }
+    },
+    "CSE 870  Advanced Software Engineering": {
+        "description": {
+            "Interdepartmental With": "Microbiology and Molecular Genetics, Integrative Biology",
+            "Administered By": "Computer Science and Engineering",
+            "Effective Dates": "US18 - Open",
+            "View all versions of CSE 845.": "",
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "CSE 840"
+        }
+    },
+    "CSE 881  Data Mining": {
+        "description": {
+            "Recommended Background": "Algorithms, programming in C or equivalent, probability and statistics, artificial intelligence.",
+            "Restrictions": "Open to graduate students in the Department of Computer Science and Engineering or approval of department.",
+            "Description": "Computational study of learning and data mining. Strengths and limitations of various learning paradigms, including supervised learning, learning from scalar reward, unsupervised learning, and learning with domain knowledge.",
+            "Effective Dates": "FS23 - Open",
+            "View all versions of CSE 847.": "",
+            "Semester": "Fall of even years",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3"
+        }
+    },
+    "CSE 885  Artificial Neural Networks": {
+        "description": {
+            "Recommended Background": "CSE 841 and CSE 440",
+            "Restrictions": "Open to graduate students in the Department of Computer Science and Engineering and open to graduate students in the Department of Electrical and Computer Engineering or approval of department.",
+            "Description": "Investigation of evolutionary computation from a historical, theoretical and application viewpoint. Readings from the present literature, experiments with provided software on the application of evolutionary computation principles.",
+            "Interdepartmental With": "Electrical and Computer Engineering",
+            "Administered By": "Computer Science and Engineering",
+            "Effective Dates": "FS09 - Open",
+            "View all versions of CSE 848.": ""
+        }
+    },
+    "CSE 890  Independent Study": {
+        "description": {
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "CSE 840 and CSE 847",
+            "Recommended Background": "MTH 314 and STT 441 or equivalent CSE 841 or 842 or 847",
+            "Restrictions": "Open to graduate students in the Department of Computer Science and Engineering or approval of department.",
+            "Description": "Overview of both the foundational ideas and the recent advances in deep neural network algorithms and applications.",
+            "Effective Dates": "FS23 - Open"
+        }
+    },
+    "CSE 891  Selected Topics": {
+        "description": {
+            "View all versions of CSE 849.": "",
+            "Semester": "Spring of even years",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Recommended Background": "CSE 460",
+            "Restrictions": "Open only to majors in the Department of Computer Science and Engineering or approval of department.",
+            "Description": "Models of computation: partial recursive functions, Turing machines, alternative models of computing. Basic theory and limitations of computability. Undecidability. Resource-bounded computational complexity, non-determinism, NP-completeness.",
+            "Semester Alias": "CPS 860"
+        }
+    },
+    "CSE 892  Exploration of Research in Computer Science and Engineering": {
+        "description": {
+            "Effective Dates": "SS03 - Open",
+            "View all versions of CSE 860.": "",
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Recommended Background": "Undergraduate course work in behavioral biology, cognitive psychology, philosophy, linguistics, or artificial intelligence.",
+            "Description": "Survey of how different disciplines explore the cognitive processes underlying intelligent behavior.",
+            "Semester Alias": "ZOL 867"
+        }
+    },
+    "CSE 898  Master's Project": {
+        "description": {
+            "Interdepartmental With": "Psychology, Linguistics, Philosophy, Integrative Biology",
+            "Administered By": "Psychology",
+            "Effective Dates": "FS22 - Open",
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Recommended Background": "(CSE 470) or undergraduate software engineering course",
+            "Restrictions": "Open only to students in the Department of Computer Science and Engineering."
+        }
+    },
+    "CSE 899  Master's Thesis Research": {
+        "description": {
+            "Description": "Methods and techniques supporting later lifecycle activities, including software testing and maintenance, reuse, and reverse engineering. Domain-specific software engineering methods. Human-computer interfaces, distributed systems, and visualization techniques.",
+            "Effective Dates": "FS99 - Open",
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Prerequisite": "CSE 840 or CSE 482",
+            "Recommended Background": "Programming skills in C, C++, Java and Matlab. Basic knowledge in calculus, probability and statistics.",
+            "Restrictions": "Open to graduate students in the Department of Computer Science and Engineering or approval of department."
+        }
+    },
+    "CSE 902  Selected Topics in Recognition by Machine": {
+        "description": {
+            "Description": "Overview of neuro-engineering technology. Basic neural network architectures. Feedforward and feedback networks. Temporal modeling. Supervised and unsupervised learning. Implementation. Basic applications to pattern recognition.",
+            "Effective Dates": "FS23 - Open",
+            "View all versions of CSE 881.": "",
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3",
+            "Semester Alias": "EE 885"
+        }
+    },
+    "CSE 910  Selected Topics in Computer Networks and Distributed Systems": {
+        "description": {
+            "Interdepartmental With": "Electrical and Computer Engineering",
+            "Administered By": "Electrical and Computer Engineering",
+            "Effective Dates": "FS11 - Open",
+            "View all versions of CSE 885.": "",
+            "Semester": "Fall of every year, Spring of every year, Summer of every year",
+            "Credits": "Variable from 1 to 3",
+            "Reenrollment Information": "A student may earn a maximum of 6 credits in all enrollments for this course."
+        }
+    },
+    "CSE 920  Selected Topics in High Performance Computer Systems": {
+        "description": {
+            "Restrictions": "Open only to Computer Science or Electrical Engineering majors. Approval of department.",
+            "Description": "Independent study of some topic, system, or language not covered in a regular course.",
+            "Semester Alias": "CPS 890",
+            "Effective Dates": "US99 - Open",
+            "View all versions of CSE 890.": "",
+            "Semester": "Fall of every year, Spring of every year",
+            "Credits": "Variable from 1 to 3"
+        }
+    },
+    "CSE 941  Selected Topics in Artificial Intelligence": {
+        "description": {
+            "Reenrollment Information": "A student may earn a maximum of 9 credits in all enrollments for this course.",
+            "Restrictions": "Open only to Computer Science or Electrical Engineering majors.",
+            "Description": "Selected topics in computer science of current interest and importance but not covered in a regular course.",
+            "Semester Alias": "CPS 891",
+            "Effective Dates": "US99 - Open",
+            "View all versions of CSE 891.": "",
+            "Semester": "On Demand"
+        }
+    },
+    "CSE 960  Selected Topics in Algorithms and Complexity": {
+        "description": {
+            "Credits": "Total Credits: 3",
+            "Reenrollment Information": "A student may earn a maximum of 3 credits in all enrollments for this course.",
+            "Restrictions": "Approval of department.",
+            "Description": "Exploring research in computer science under faculty supervision, including but not limited to attending research group meetings, assisting faculty with a specific research project, and/or reading research literature.",
+            "Effective Dates": "FS22 - Open",
+            "Semester": "Spring of every year"
+        }
+    },
+    "CSE 980  Selected Topics in Database Systems": {
+        "description": {
+            "Reenrollment Information": "A student may earn a maximum of 24 credits in all enrollments for this course.",
+            "Restrictions": "Open to students in the Department of Computer Science and Engineering. Approval of department.",
+            "Description": "In depth student project where the student performs original research, research replication, or survey and reporting on a topic such as system design and development, or system conversion or installation.",
+            "Effective Dates": "FS14 - Open",
+            "Semester": "Fall of every year, Spring of every year, Summer of every year",
+            "Credits": "Variable from 1 to 8"
+        }
+    },
+    "CSE 999  Doctoral Dissertation Research": {
+        "description": {
+            "Restrictions": "Open only to Computer Science majors. Approval of department.",
+            "Description": "Master's thesis research.",
+            "Semester Alias": "CPS 899",
+            "Effective Dates": "US99 - Open",
+            "View all versions of CSE 899.": "",
+            "Semester": "Spring of every year",
+            "Credits": "Total Credits: 3   Lecture/Recitation/Discussion Hours: 3"
+        }
+    }
+}
