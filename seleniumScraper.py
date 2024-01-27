@@ -7,6 +7,8 @@ import json
 
 
 courses = {}
+current_course_name = None  # Initialize current course name as None
+current_descriptions = {} 
 # Setup the Chrome WebDriver
 driver = webdriver.Chrome()
 
@@ -38,27 +40,42 @@ try:
     h3_tags = driver.find_elements(By.TAG_NAME, 'h3')
     h3_texts = [tag.text for tag in h3_tags]
 
-    # Now, iterate over the course description elements
-    for index, element in enumerate(course_desc_elements):
-        course_name = h3_texts[index] if index < len(h3_texts) else "Unknown Course"
-        course_description = element.text
+    for element in course_desc_elements:
+        text = element.text
+        label, _, value = text.partition(':')
+        label = label.strip()
 
-            # Adding course information to the dictionary
-        courses[course_name] = {
-            'description': course_description
-            }
+        # Check if it's time to start a new course (when "Semester" is encountered)
+        if label == "Semester":
+            if current_course_name:  # If it's not the first course
+                # Save the previous course's descriptions before moving to the next course
+                courses[current_course_name] = {
+                    'description': current_descriptions
+                }
+            # Update current course name and reset descriptions
+            current_course_name = h3_texts.pop(0) if h3_texts else "Unknown Course"
+            current_descriptions = {}
 
+        # Append the current description to the current course
+        current_descriptions[label] = value.strip()
+
+    # Don't forget to add the last course's descriptions
+    if current_course_name:
+        courses[current_course_name] = {
+            'description': current_descriptions
+        }
+
+    # Convert to JSON
+    courses_json = json.dumps(courses, indent=4)
+    print(courses_json)
+
+    # Optionally, write to a file
+    with open('courses.json', 'w') as file:
+        file.write(courses_json)
         # Convert the dictionary to a JSON string
         courses_json = json.dumps(courses, indent=4)
 
-        # For demonstration, printing the JSON string
-        print(courses_json)
-
-        # Optionally, you can write this JSON to a file
-        with open('courses.json', 'w') as file:
-            file.write(courses_json)
-
-            # Add any additional actions here
+                # Add any additional actions here
 
 finally:
     # Close the browser
