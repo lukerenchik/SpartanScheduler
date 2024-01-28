@@ -1,0 +1,44 @@
+[
+    // Previous courses...
+
+    {
+        "course_code": "CSE 231",
+        "course_name": "Introduction to Programming I",
+        "description": {
+            "Semester": "Fall of every year, Spring of every year, Summer of every year",
+            "Credits": "Total Credits: 4   Lecture/Recitation/Discussion Hours: 3   Lab Hours: 2",
+            "Prerequisite": "(LB 118 or concurrently) or (MTH 124 or concurrently) or (MTH 132 or concurrently) or (MTH 152H or concurrently)",
+            "Description": "Introduction to programming using Python. Design, implementation and testing of programs to solve problems such as those in engineering, mathematics and science. Programming fundamentals, functions, objects, and use of libraries of functions.",
+            "Semester Alias": "CSE 230",
+            "Effective Dates": "SS14 - Open",
+            "View all versions of CSE 231": ""
+        }
+    },
+    {
+        "course_code": "CSE 232",
+        "course_name": "Introduction to Programming II",
+        "description": {
+            "Semester": "Fall of every year, Spring of every year, Summer of every year",
+            "Credits": "Total Credits: 4   Lecture/Recitation/Discussion Hours: 3   Lab Hours: 2",
+            "Prerequisite": "(CSE 231 or CMSE 202) and (LB 118 or MTH 124 or MTH 132 or MTH 152H)",
+            "Description": "Continuation of object-centered design and implementation in C++. Building programs from modules. Data abstraction and classes to implement abstract data types. Static and dynamic memory allocation. Data structure implementation and algorithm efficiency. Lists, tables, stacks, and queues. Templates and generic programming.",
+            "Semester Alias": "CSE 330",
+            "Effective Dates": "FS22 - Open",
+            "View all versions of CSE 232": ""
+        }
+    },
+    {
+        "course_code": "CSE 260",
+        "course_name": "Discrete Structures in Computer Science",
+        "description": {
+            "Semester": "Fall of every year, Spring of every year, Summer of every year",
+            "Credits": "Total Credits: 4   Lecture/Recitation/Discussion Hours: 5",
+            "Prerequisite": "MTH 133 or MTH 126 or MTH 153H or LB 119",
+            "Description": "Propositional and first order logic. Equivalence and methods of proof. Basics of counting. Set operations, relations, functions. Grammars and finite state automata. Discrete probability. Applications to computer science and engineering.",
+            "Semester Alias": "CPS 260",
+            "Effective Dates": "FS22 - Open",
+            "View all versions of CSE 260": ""
+        }
+    }
+    // ... continue for the rest of the courses
+]
