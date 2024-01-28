@@ -2,7 +2,11 @@ import requests
 import json
 
 #lukeopenaikey - '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'
-def chat_with_openai(prompt, api_key):
+with open('classdata.json', "r") as f:
+    data = json.loads(f.read())
+    
+def chat_with_openai(prompt, api_key, gptPrompt):
+
     url = "https://api.openai.com/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {api_key}",
@@ -10,7 +14,7 @@ def chat_with_openai(prompt, api_key):
     }
     data = {
         "model": "gpt-3.5-turbo",  # or another model you prefer
-        "messages": [{"role": "system", "content": "Role: Academic Course Planner Analyst. As an Academic Course Planner Analyst, you will receive JSON data describing various college courses. Each course entry includes the course name, course code, description, number of credits, prerequisites, and availability in the next summer. Additionally, you will receive data on a user's major, courses already taken, total credit accumulated, track preference, stress capacity in terms of course load. Your task is to process this information and calculate a course plan that aligns with the user's major, meets their stress capacity, and fulfills the necessary prerequisites and credit requirements. You should prioritize courses that are available next summer, while ensuring that the overall plan supports the user’s academic progression. Remember, you must interpret the JSON data accurately, consider all user preferences, and provide a well-reasoned course plan. You are expected to explain your choices clearly, highlighting how each recommended course fits into the user’s academic goals and limitations."},
+        "messages": [{"role": "system", "content": gptPrompt},
                      {"role": "user", "content": prompt}]
     }
 
@@ -21,6 +25,32 @@ def chat_with_openai(prompt, api_key):
 API_KEY = "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"
 
 # Example usage
-user_prompt = "[{"courseName": "Introduction to Computer Science", "courseCode": "CS101", "description": "An introductory course on computer science fundamentals.", "credits": 4, "prerequisites": [], "availableNextSemester": true}, {"courseName": "Calculus I", "courseCode": "MATH201", "description": "A comprehensive study of differential calculus.", "credits": 4, "prerequisites": ["High School Mathematics"], "availableNextSemester": true}, {"courseName": "Introduction to Psychology", "courseCode": "PSY101", "description": "Basic concepts in psychology covering various aspects of human behavior.", "credits": 3, "prerequisites": [], "availableNextSemester": false}, {"courseName": "American Literature", "courseCode": "ENG205", "description": "Exploration of American literature from the colonial period to the present.", "credits": 3, "prerequisites": ["English Composition"], "availableNextSemester": true}, {"courseName": "Organic Chemistry", "courseCode": "CHEM301", "description": "Study of the structure, properties, and reactions of organic compounds.", "credits": 4, "prerequisites": ["General Chemistry"], "availableNextSemester": false}]"
-response = chat_with_openai(user_prompt, API_KEY)
-print(response)
+#create a json parser for the user input
+with open('studentdata.json', "r") as f:
+    data = json.loads(f.read())
+# coursesTaken = data['coursesTaken'][0]
+# major = data['major']
+# track = data['track']
+# stressCapacity = data['stressCapacity']
+# credits = data['credits']
+
+#read gptPrompt from file, making sure to merge all the lines into one string
+gptPrompt = ""
+with open('gptPrompt.txt', "r") as f:
+    for line in f:
+        gptPrompt = gptPrompt + line
+        gptPrompt = gptPrompt.replace('\n', ' ')
+
+#print all the data
+#student data
+coursesTaken = str(data['Student']['coursesTaken']))
+major = str(data['Student']['major']))
+track = str(data['Student']['trackPreference']))
+stressCapacity = str(data['Student']['stressCapacity']))
+credits = str(data['Student']['credits']))
+print("gptPrompt: " + str(gptPrompt))
+user_prompt = "My major is " + major + ". I have taken " + coursesTaken + " and I am in the " + track + " track. I have " + credits + " credits and my stress capacity is " + stressCapacity + "."
+
+
+# response = chat_with_openai(user_prompt, API_KEY)
+# print(response)

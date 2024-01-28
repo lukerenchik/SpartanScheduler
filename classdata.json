@@ -1,0 +1,65 @@
+{
+    "CS 101": {
+        "name": "Computer Science 101",
+        "description": "Introduction to Computer Science",
+        "credits": 3,
+        "prerequisites": "None",
+        "availability": "Fall, Spring, Summer"
+    },
+    "CS 102": {
+        "name": "Computer Science 102",
+        "description": "Introduction to Computer Science II",
+        "credits": 3,
+        "prerequisites": "CS 101",
+        "availability": "Fall, Spring, Summer"
+    },
+    "CS 201": {
+        "name": "Computer Science 201",
+        "description": "Data Structures",
+        "credits": 3,
+        "prerequisites": "CS 102",
+        "availability": "Fall, Spring"
+    },
+    "CS 202": {
+        "name": "Computer Science 202",
+        "description": "Algorithms",
+        "credits": 3,
+        "prerequisites": "CS 201",
+        "availability": "Fall, Spring"
+    },
+    "CS 301": {
+        "name": "Computer Science 301",
+        "description": "Operating Systems",
+        "credits": 3,
+        "prerequisites": "CS 202",
+        "availability": "Fall, Spring"
+    },
+    "CS 302": {
+        "name": "Computer Science 302",
+        "description": "Computer Architecture",
+        "credits": 3,
+        "prerequisites": "CS 202",
+        "availability": "Fall, Spring"
+    },
+    "CS 401": {
+        "name": "Computer Science 401",
+        "description": "Software Engineering",
+        "credits": 3,
+        "prerequisites": "CS 301",
+        "availability": "Fall, Spring"
+    },
+    "CS 402": {
+        "name": "Computer Science 402",
+        "description": "Computer Networks",
+        "credits": 3,
+        "prerequisites": "CS 301",
+        "availability": "Fall, Spring"
+    },
+    "CS 403": {
+        "name": "Computer Science 403",
+        "description": "Database Systems",
+        "credits": 3,
+        "prerequisites": "CS 301",
+        "availability": "Fall, Spring"
+    }
+}
