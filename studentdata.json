@@ -1,0 +1,40 @@
+{
+    "Sophomore": {
+      "name": "Luke Renchik",
+      "major": "Computer Science",
+      "coursesTaken": [
+        "CS101",
+        "MATH201",
+        "ENG205"
+      ],
+      "credits": 11,
+      "trackPreference": "Software Engineering",
+      "stressCapacity": "High"
+    },
+
+    "Junior": {
+        "name": "Bill Syahputra",
+        "major": "Computer Science",
+        "coursesTaken": [
+          "CS101",
+          "MATH201",
+          "ENG205"
+        ],
+        "credits": 11,
+        "trackPreference": "Software Engineering",
+        "stressCapacity": "High"
+      },
+
+    "Grad": {
+        "name": "Christopher Castillo",
+        "major": "Computer Science",
+        "coursesTaken": [
+          "CS101",
+          "MATH201",
+          "ENG205"
+        ],
+        "credits": 11,
+        "trackPreference": "Software Engineering",
+        "stressCapacity": "High"
+      }
+}
