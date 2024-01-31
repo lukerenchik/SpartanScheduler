@@ -8,16 +8,7 @@ const { auth } = require('express-openid-connect');
 const app = express()
 app.use(express.json())
 
-const config = {
-    authRequired: false,
-    auth0Logout: true,
-    secret: process.env.SECRET, // store this in an environment variable
-    baseURL: 'http://localhost:3001', // change this to your production URL in production
-    clientID: 'your_auth0_client_id',
-    issuerBaseURL: 'https://your_auth0_domain'
-  };
 
-  app.use(auth(config));
 
 // db connection
 connectToDb((err) => { // catch error if any
@@ -29,7 +20,32 @@ connectToDb((err) => { // catch error if any
     }
 })
 
+app.use(bodyParser.json());
 
+app.post('/login', async (req, res) => {
+    const { email, password } = req.body;
+  
+    try {
+      // Find a student with the provided email
+      const student = await Student.findOne({ email });
+  
+      if (!student) {
+        // Student not found
+        return res.status(401).json({ error: 'Invalid email or password' });
+      }
+  
+      if (student.password !== password) {
+        // Incorrect password
+        return res.status(401).json({ error: 'Invalid email or password' });
+      }
+  
+      // Authentication successful
+      return res.status(200).json({ message: 'Login successful' });
+    } catch (error) {
+      console.error(error);
+      return res.status(500).json({ error: 'Internal server error' });
+    }
+  });
 
 
 app.get('/course_catalog', (req, res)=> {

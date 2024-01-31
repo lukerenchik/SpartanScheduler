@@ -2,7 +2,7 @@ const { MongoClient } = require('mongodb')
 
 let dbConnection
 
-let uri = 'mongodb+srv://bsyahputra:zepiXOUXzyAMWf2r@spartanscheduler.wvwq0rm.mongodb.net/?retryWrites=true&w=majority'
+let uri = 'mongodb+srv://bsyahputra:zepiXOUXzyAMWf2r@spartanscheduler.wvwq0rm.mongodb.net/'
 
 //how to export in Nodes application
 module.exports = {
